@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect, FormEventHandler, FormEvent } from 'react';
+import React, { useState, useEffect, FormEvent } from 'react';
 import './LocationSearch.css';
 
 export interface LocationType {

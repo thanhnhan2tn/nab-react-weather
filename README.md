@@ -1,16 +1,15 @@
 # The Weather example ReactJS application
 [![codecov](https://codecov.io/gh/thanhnhan2tn/nab-react-weather/branch/master/graph/badge.svg)](https://codecov.io/gh/thanhnhan2tn/nab-react-weather/)
-![Github workflow](https://github.com/thanhnhan2tn/nab-react-weather/actions/workflows/test.yml/badge.svg)
+[![Github workflow](https://github.com/thanhnhan2tn/nab-react-weather/actions/workflows/test.yml/badge.svg)](https://github.com/thanhnhan2tn/nab-react-weather/actions)
 
 ## Description
 
-The idea of this repo is to build a simple application complete with:
+This repo is to build a Weather sample application with:
 
-* a React front end
+* a ReactJS front-end
 * a Node.js proxy server
 * unit tests
 * Simple continuous integration (via Github Workflow)
-* continuous deployment (TBU)
 
 ## Technologies
 
@@ -29,10 +28,7 @@ The idea of this repo is to build a simple application complete with:
 - [x] Scaffold app via create-react-app
 - [x] [Design Highlevel Architecture](#Highlevel-Architecture)
 - [x] [Add proxy server](#add-proxy-scripts)
-- [x] [Add start-dev and start-local scripts](#add-start-dev-and-start-local-scripts)
 - [x] Add weather info view
-- [x] Add a favicon
-- [x] Add error handling
 - [x] Add Github Workflow CI
 
 ## Should make improve

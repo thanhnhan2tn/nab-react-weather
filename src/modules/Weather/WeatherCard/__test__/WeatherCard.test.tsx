@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import WeatherItem from '../WeatherItem';
-import { IWeatherInfo } from '../../../interfaces';
+import WeatherCard from '..';
+import { IWeatherInfo } from '../../../../interfaces';
 
-describe('WeatherItem', () => {
-  let props: { data: IWeatherInfo };
+describe('WeatherCard', () => {
+  let props: { weatherData: IWeatherInfo };
   beforeEach(() => {
     props = {
-      data: {
+      weatherData: {
         id: 1,
         time: '2022-01-01T07:16:41.376284Z"',
         title: 'Ho Chi Minh',
@@ -18,7 +18,7 @@ describe('WeatherItem', () => {
     };
   });
   it('should render to match snapshot', () => {
-    const component = shallow(<WeatherItem  {...props} />);
+    const component = shallow(<WeatherCard  {...props} />);
     expect(component).toMatchSnapshot();
   })
 })

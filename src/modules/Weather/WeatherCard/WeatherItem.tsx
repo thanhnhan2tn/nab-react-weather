@@ -1,8 +1,9 @@
 
 import React from 'react';
-import { IWeatherInfo } from '../../interfaces';
-import { WEATHER_STATE } from '../../constants/weather-state';
 import moment from 'moment';
+
+import { IWeatherInfo } from '../../../interfaces';
+import { WEATHER_STATE } from '../../../constants/weather-state';
 
 const WeatherItem = ({ data: {
   applicable_date,

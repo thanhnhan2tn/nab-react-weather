@@ -1,7 +1,8 @@
-import logger from "../../utils/log";
-import { ErrorMessage } from "../../constants";
 import { SagaIterator } from "redux-saga";
 import { call, put, takeLatest } from "redux-saga/effects";
+
+import logger from "../../utils/log";
+import { ErrorMessage } from "../../constants";
 import { loadLocation, loadWeather } from "./sagaActions";
 import { getLocationService, getWeatherService } from "./weatherServices";
 import { loadingLocation, loadLocationFailue, locationReceived, weatherReceived } from './weatherSlice';

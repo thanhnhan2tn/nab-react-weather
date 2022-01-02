@@ -1,14 +1,12 @@
-import React, { Suspense, ReactNode, useCallback, useEffect } from 'react';
-import { FC } from 'react';
-import LocationSearch from './../../components/LocationSearch';
-import moment from 'moment';
+import React, { FC, Suspense, ReactNode, useCallback, useEffect } from 'react';
+import { Card } from 'react-bootstrap';
+import { useDispatch } from 'react-redux';
+
+import LocationSearch from './LocationSearch';
 import Loader from './../../components/Loader';
 import ErrorBoundary from './../../components/ErrorBoundary';
-import './Weather.css';
-import { Card } from 'react-bootstrap';
-import WeatherItem from '../../components/WeatherCard/WeatherItem';
-import WeatherCard from '../../components/WeatherCard';
-import { useDispatch } from 'react-redux';
+import WeatherItem from './WeatherCard/WeatherItem';
+import WeatherCard from './WeatherCard';
 import { loadLocation } from './sagaActions';
 import { selectWeather, selectDataState } from './weatherSlice';
 import { DEFAULT_LOCATION } from './../../config';
@@ -16,6 +14,8 @@ import { useAppSelector } from './../../hooks';
 import { IWeather, IWeatherInfo } from '../../interfaces';
 import { ErrorMessage } from '../../constants';
 import NoResult from './NoResult';
+
+import './Weather.css';
 
 interface IProps {
   loading?: boolean,
