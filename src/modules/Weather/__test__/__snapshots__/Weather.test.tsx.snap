@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather should render match  snapshot 1`] = `
+<div
+  className="app container"
+>
+  <div
+    className="card content"
+  >
+    <form
+      className="search"
+      onSubmit={[Function]}
+    >
+      <input
+        className="search__input"
+        name="search"
+        onChange={[Function]}
+        placeholder="eg: Ho Chi Minh"
+        type="search"
+        value="Ho Chi Minh"
+      />
+      <button
+        className="search__button"
+        type="submit"
+      >
+        Search
+        
+      </button>
+    </form>
+    <div
+      className="content__body"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="card-today card"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-6"
+      >
+        <div
+          className="date"
+        >
+          Date: 
+          01/01/2022
+        </div>
+        <div
+          className="temp"
+        >
+          30
+           °
+        </div>
+        <div
+          className="location"
+        >
+          Ho Chi Minh City
+        </div>
+      </div>
+      <div
+        className="col-6 justify-content-right"
+      >
+        <img
+          alt="Heavy Cloud"
+          className="img-fluid"
+          src="https://www.metaweather.com/static/img/weather/hc.svg"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="focast-list card"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="row row1"
+        >
+          Min: 
+          23
+           °
+        </div>
+        <div
+          className="row row1"
+        >
+          Max: 
+          32
+           °
+        </div>
+        <div
+          className="row row2"
+        >
+          <img
+            alt="Heavy Cloud"
+            className="img-fluid"
+            src="https://www.metaweather.com/static/img/weather/hc.svg"
+          />
+        </div>
+        <div
+          className="row row3"
+        >
+          Sunday
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="row row1"
+        >
+          Min: 
+          23
+           °
+        </div>
+        <div
+          className="row row1"
+        >
+          Max: 
+          30
+           °
+        </div>
+        <div
+          className="row row2"
+        >
+          <img
+            alt="Showers"
+            className="img-fluid"
+            src="https://www.metaweather.com/static/img/weather/s.svg"
+          />
+        </div>
+        <div
+          className="row row3"
+        >
+          Monday
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="row row1"
+        >
+          Min: 
+          23
+           °
+        </div>
+        <div
+          className="row row1"
+        >
+          Max: 
+          32
+           °
+        </div>
+        <div
+          className="row row2"
+        >
+          <img
+            alt="Heavy Cloud"
+            className="img-fluid"
+            src="https://www.metaweather.com/static/img/weather/hc.svg"
+          />
+        </div>
+        <div
+          className="row row3"
+        >
+          Tuesday
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="row row1"
+        >
+          Min: 
+          23
+           °
+        </div>
+        <div
+          className="row row1"
+        >
+          Max: 
+          33
+           °
+        </div>
+        <div
+          className="row row2"
+        >
+          <img
+            alt="Showers"
+            className="img-fluid"
+            src="https://www.metaweather.com/static/img/weather/s.svg"
+          />
+        </div>
+        <div
+          className="row row3"
+        >
+          Wednesday
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="row row1"
+        >
+          Min: 
+          24
+           °
+        </div>
+        <div
+          className="row row1"
+        >
+          Max: 
+          33
+           °
+        </div>
+        <div
+          className="row row2"
+        >
+          <img
+            alt="Heavy Cloud"
+            className="img-fluid"
+            src="https://www.metaweather.com/static/img/weather/hc.svg"
+          />
+        </div>
+        <div
+          className="row row3"
+        >
+          Thursday
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

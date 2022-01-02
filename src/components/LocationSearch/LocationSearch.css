@@ -1,0 +1,18 @@
+.search {
+  position: relative;
+}
+.search__input {
+  outline: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.search__button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}

@@ -1,0 +1,546 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherCard should render to match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WeatherCard
+    weatherData={
+      Object {
+        "id": 1,
+        "the_temp": 31,
+        "time": "2022-01-01T07:16:41.376284Z\\"",
+        "title": "Ho Chi Minh",
+        "weather_state_abbr": "hr",
+        "weather_state_name": "Heavy Rain",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "body": false,
+      "children": <div
+        className="row"
+      >
+        <div
+          className="col-6"
+        >
+          <div
+            className="date"
+          >
+            Date: 
+            Invalid date
+          </div>
+          <div
+            className="temp"
+          >
+            31
+             °
+          </div>
+          <div
+            className="location"
+          >
+            Ho Chi Minh
+          </div>
+        </div>
+        <div
+          className="col-6 justify-content-right"
+        >
+          <img
+            alt="Heavy Rain"
+            className="img-fluid"
+            src="https://www.metaweather.com/static/img/weather/hr.svg"
+          />
+        </div>
+      </div>,
+      "className": "card-today",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="col-6"
+          >
+            <div
+              className="date"
+            >
+              Date: 
+              Invalid date
+            </div>
+            <div
+              className="temp"
+            >
+              31
+               °
+            </div>
+            <div
+              className="location"
+            >
+              Ho Chi Minh
+            </div>
+          </div>,
+          <div
+            className="col-6 justify-content-right"
+          >
+            <img
+              alt="Heavy Rain"
+              className="img-fluid"
+              src="https://www.metaweather.com/static/img/weather/hr.svg"
+            />
+          </div>,
+        ],
+        "className": "row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="date"
+              >
+                Date: 
+                Invalid date
+              </div>,
+              <div
+                className="temp"
+              >
+                31
+                 °
+              </div>,
+              <div
+                className="location"
+              >
+                Ho Chi Minh
+              </div>,
+            ],
+            "className": "col-6",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Date: ",
+                  "Invalid date",
+                ],
+                "className": "date",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Date: ",
+                "Invalid date",
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  31,
+                  " °",
+                ],
+                "className": "temp",
+              },
+              "ref": null,
+              "rendered": Array [
+                31,
+                " °",
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ho Chi Minh",
+                "className": "location",
+              },
+              "ref": null,
+              "rendered": "Ho Chi Minh",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="Heavy Rain"
+              className="img-fluid"
+              src="https://www.metaweather.com/static/img/weather/hr.svg"
+            />,
+            "className": "col-6 justify-content-right",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Heavy Rain",
+              "className": "img-fluid",
+              "src": "https://www.metaweather.com/static/img/weather/hr.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "Body": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "render": [Function],
+      },
+      "Footer": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "render": [Function],
+      },
+      "Header": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "Img": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      },
+      "ImgOverlay": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "render": [Function],
+      },
+      "Link": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "render": [Function],
+      },
+      "Subtitle": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "render": [Function],
+      },
+      "Text": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "render": [Function],
+      },
+      "Title": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "render": [Function],
+      },
+      "defaultProps": Object {
+        "body": false,
+      },
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "body": false,
+        "children": <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <div
+              className="date"
+            >
+              Date: 
+              Invalid date
+            </div>
+            <div
+              className="temp"
+            >
+              31
+               °
+            </div>
+            <div
+              className="location"
+            >
+              Ho Chi Minh
+            </div>
+          </div>
+          <div
+            className="col-6 justify-content-right"
+          >
+            <img
+              alt="Heavy Rain"
+              className="img-fluid"
+              src="https://www.metaweather.com/static/img/weather/hr.svg"
+            />
+          </div>
+        </div>,
+        "className": "card-today",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="col-6"
+            >
+              <div
+                className="date"
+              >
+                Date: 
+                Invalid date
+              </div>
+              <div
+                className="temp"
+              >
+                31
+                 °
+              </div>
+              <div
+                className="location"
+              >
+                Ho Chi Minh
+              </div>
+            </div>,
+            <div
+              className="col-6 justify-content-right"
+            >
+              <img
+                alt="Heavy Rain"
+                className="img-fluid"
+                src="https://www.metaweather.com/static/img/weather/hr.svg"
+              />
+            </div>,
+          ],
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="date"
+                >
+                  Date: 
+                  Invalid date
+                </div>,
+                <div
+                  className="temp"
+                >
+                  31
+                   °
+                </div>,
+                <div
+                  className="location"
+                >
+                  Ho Chi Minh
+                </div>,
+              ],
+              "className": "col-6",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Date: ",
+                    "Invalid date",
+                  ],
+                  "className": "date",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Date: ",
+                  "Invalid date",
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    31,
+                    " °",
+                  ],
+                  "className": "temp",
+                },
+                "ref": null,
+                "rendered": Array [
+                  31,
+                  " °",
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ho Chi Minh",
+                  "className": "location",
+                },
+                "ref": null,
+                "rendered": "Ho Chi Minh",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="Heavy Rain"
+                className="img-fluid"
+                src="https://www.metaweather.com/static/img/weather/hr.svg"
+              />,
+              "className": "col-6 justify-content-right",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Heavy Rain",
+                "className": "img-fluid",
+                "src": "https://www.metaweather.com/static/img/weather/hr.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Body": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "render": [Function],
+        },
+        "Footer": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "render": [Function],
+        },
+        "Header": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Img": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "ImgOverlay": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "render": [Function],
+        },
+        "Link": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "render": [Function],
+        },
+        "Subtitle": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "render": [Function],
+        },
+        "Text": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "render": [Function],
+        },
+        "Title": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "render": [Function],
+        },
+        "defaultProps": Object {
+          "body": false,
+        },
+        "render": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

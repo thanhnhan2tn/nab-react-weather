@@ -1,0 +1,61 @@
+.app {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  padding: 1.2rem 3rem 1rem 3rem;
+  margin: 1rem;
+  box-shadow: 5px 8px 10px #80808033;
+}
+
+.img-fluid {
+  float: right;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.focast-list .row {
+  justify-content: center;
+}
+
+.row1 {
+  font-size: 1.4rem;
+  color: black;
+}
+
+.row3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: black;
+}
+
+.focast-list .row3 {
+  margin: 5% 0 2.5rem;
+}
+
+.row2 .img-fluid {
+  margin: 10% 0;
+  opacity: 0.5;
+  width: 7rem;
+}
+
+
+@media (max-width: 767px) {
+  .card {
+    height: 10rem;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+  .row2 .img-fluid {
+    margin: 10% 0;
+    opacity: 0.5;
+    width: 4rem;
+  } 
+  .row3 {
+    font-size: 0.9rem;
+  }
+  .row1 {
+    font-size: 0.7rem;
+  }
+}

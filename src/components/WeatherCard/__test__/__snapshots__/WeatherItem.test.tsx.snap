@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherItem should render to match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WeatherItem
+    data={
+      Object {
+        "id": 1,
+        "the_temp": 31,
+        "time": "2022-01-01T07:16:41.376284Z\\"",
+        "title": "Ho Chi Minh",
+        "weather_state_abbr": "hr",
+        "weather_state_name": "Heavy Rain",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="row row1"
+        >
+          Min: 
+          ...
+           °
+        </div>,
+        <div
+          className="row row1"
+        >
+          Max: 
+          ...
+           °
+        </div>,
+        <div
+          className="row row2"
+        >
+          <img
+            alt="Heavy Rain"
+            className="img-fluid"
+            src="https://www.metaweather.com/static/img/weather/hr.svg"
+          />
+        </div>,
+        <div
+          className="row row3"
+        >
+          Saturday
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Min: ",
+            "...",
+            " °",
+          ],
+          "className": "row row1",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Min: ",
+          "...",
+          " °",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Max: ",
+            "...",
+            " °",
+          ],
+          "className": "row row1",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Max: ",
+          "...",
+          " °",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt="Heavy Rain"
+            className="img-fluid"
+            src="https://www.metaweather.com/static/img/weather/hr.svg"
+          />,
+          "className": "row row2",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Heavy Rain",
+            "className": "img-fluid",
+            "src": "https://www.metaweather.com/static/img/weather/hr.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Saturday",
+          "className": "row row3",
+        },
+        "ref": null,
+        "rendered": "Saturday",
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="row row1"
+          >
+            Min: 
+            ...
+             °
+          </div>,
+          <div
+            className="row row1"
+          >
+            Max: 
+            ...
+             °
+          </div>,
+          <div
+            className="row row2"
+          >
+            <img
+              alt="Heavy Rain"
+              className="img-fluid"
+              src="https://www.metaweather.com/static/img/weather/hr.svg"
+            />
+          </div>,
+          <div
+            className="row row3"
+          >
+            Saturday
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Min: ",
+              "...",
+              " °",
+            ],
+            "className": "row row1",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Min: ",
+            "...",
+            " °",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Max: ",
+              "...",
+              " °",
+            ],
+            "className": "row row1",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Max: ",
+            "...",
+            " °",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="Heavy Rain"
+              className="img-fluid"
+              src="https://www.metaweather.com/static/img/weather/hr.svg"
+            />,
+            "className": "row row2",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Heavy Rain",
+              "className": "img-fluid",
+              "src": "https://www.metaweather.com/static/img/weather/hr.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Saturday",
+            "className": "row row3",
+          },
+          "ref": null,
+          "rendered": "Saturday",
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
