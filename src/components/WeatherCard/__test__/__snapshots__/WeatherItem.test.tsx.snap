@@ -56,7 +56,7 @@ ShallowWrapper {
         <div
           className="row row3"
         >
-          Saturday
+          Sunday
         </div>,
       ],
     },
@@ -135,11 +135,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Saturday",
+          "children": "Sunday",
           "className": "row row3",
         },
         "ref": null,
-        "rendered": "Saturday",
+        "rendered": "Sunday",
         "type": "div",
       },
     ],
@@ -178,7 +178,7 @@ ShallowWrapper {
           <div
             className="row row3"
           >
-            Saturday
+            Sunday
           </div>,
         ],
       },
@@ -257,11 +257,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Saturday",
+            "children": "Sunday",
             "className": "row row3",
           },
           "ref": null,
-          "rendered": "Saturday",
+          "rendered": "Sunday",
           "type": "div",
         },
       ],

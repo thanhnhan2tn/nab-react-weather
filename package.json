@@ -34,7 +34,7 @@
     "start": "export NODE_OPTIONS=--openssl-legacy-provider; react-scripts start & node proxy",
     "proxy": "node proxy",
     "build": "env-cmd -f .env.production react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage",
     "lint": "eslint --ignore-path .gitignore ."
   },
   "eslintConfig": {

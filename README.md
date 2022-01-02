@@ -1,4 +1,91 @@
-# Getting Started with Create React App
+# The Weather example ReactJS application
+
+# Description
+
+The idea of this repo is to build a simple application complete with:
+
+* a React front end
+* a Node.js proxy server
+* unit tests
+* continuous integration (via CircleCI)
+* continuous deployment (TBU)
+
+## Technologies
+
+* React
+* Redux Toolkit
+* Redux Saga
+* Boostrap
+* Node.js
+* Express
+* Use of a third-party REST API ([Metaweather](https://metaweather.com/))
+* CircleCI CI/CD
+
+# Things already done
+
+* Scaffold app via create-react-app
+* [Design Highlevel Architecture](#Highlevel-Architecture)
+* [Add proxy server](#add-proxy-scripts)
+* [Add start-dev and start-local scripts](#add-start-dev-and-start-local-scripts)
+* [Add weather info view](#add-weather-info-view)
+* [Add error handling](#add-error-handling)
+* [Add CircleCI CI/CD](#add-circleci-cicd)
+* Add a favicon
+
+# Things still to do
+
+* Add more unit tests
+* Add end to end tests
+* Create a reusable HOC re component loading
+* [i18n](https://react.i18next.com/)
+* Add Autocomplete for search location and select exactly location.
+* Lazy load and Memoization
+
+# Notes on things already done
+
+## Highlevel Architecture
+
+![weather info view](https://github.com/thanhnhan2tn/nab-react-weather/blob/master/public/images/diagram.png?raw=true)
+
+The high-level architecture will consist of 3 layers:
+* Frontend Application Layer: Provide user interface to end-user, include all application logic.
+* Proxy Layer: The connecting layer, transferring data from 3rd party API to frontend and backward.
+* Remote Infrastructure Layer: Provide data from 3rd parties through HTTP/HTTPS communication.
+
+## Add server
+
+Since the `metaweather.com` API does not allow CORS to fetch API from client side, I added a basic server implementation using [Express](https://expressjs.com/).
+
+So we add the following line to `package.json` to tell `webpack-dev-server` to proxy web service calls to our node server:
+
+```
+  "proxy": "http://localhost:3001/"
+```
+
+For more details, see [Proxying API Requests in Development](https://facebook.github.io/create-react-app/docs/proxying-api-requests-in-development).
+
+## Add proxy scripts
+
+So now we need to run two web servers whilst doing local development. To make this easier, I update the `start` script:
+
+```
+react-scripts start & node proxy
+```
+
+This command launches both our node server and `webpack-dev-server`.
+
+## Add weather info view
+
+![weather info view](https://github.com/thanhnhan2tn/nab-react-weather/blob/master/public/images/screenshot.png?raw=true)
+
+
+## Add error handling
+
+TODO: add description
+
+## Add CircleCI CI/CD
+
+TODO: add description
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -28,19 +115,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
