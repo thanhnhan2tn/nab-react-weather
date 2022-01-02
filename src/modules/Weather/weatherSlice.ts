@@ -8,11 +8,11 @@ interface ILocation {
   latt_long: string;
 }
 
-interface IWeatherState {
+export interface IWeatherState {
   loading?: boolean;
   error?: string;
-  locations: ILocation[];
-  weather?: unknown;
+  locations?: ILocation[];
+  weather?: any;
 }
 
 const initialState: IWeatherState = {
@@ -26,7 +26,7 @@ const initialState: IWeatherState = {
       latt_long: "10.759180,106.662498",
     },
   ],
-  weather: {},
+  weather: {}
 };
 
 export const weatherSlice = createSlice({
@@ -40,12 +40,19 @@ export const weatherSlice = createSlice({
         error: "",
       };
     },
-    locationReceived(state: IWeatherState, action: { payload: IWeatherState }) {
+    locationReceived(state: IWeatherState, action: { payload: any }) {
       return {
         ...state,
         loading: false,
-        locations: action.payload.locations,
-        weather: action.payload.weather,
+        locations: action.payload,
+        error: "",
+      };
+    },
+    weatherReceived(state: IWeatherState, action: { payload: IWeatherState }) {
+      return {
+        ...state,
+        loading: false,
+        weather: action.payload,
         error: "",
       };
     },
@@ -60,7 +67,7 @@ export const weatherSlice = createSlice({
 });
 
 // Action creators are generated for each case reducer function
-export const { loadingLocation, locationReceived, loadLocationFailue } =
+export const { loadingLocation, locationReceived, loadLocationFailue, weatherReceived } =
   weatherSlice.actions;
 
 export const selectWeather = (state: RootState) => state.weather.weather;

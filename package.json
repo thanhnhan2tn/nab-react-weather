@@ -35,15 +35,15 @@
     "proxy": "node proxy",
     "build": "env-cmd -f .env.production react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "lint": "eslint --ignore-path .gitignore ."
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "shared-config"
+      "react-app"
     ],
     "rules": {
-      "additional-rule": "warn"
+      "semi": ["error", "always"],
+      "quotes": ["error", "double"]
     },
     "overrides": [
       {
