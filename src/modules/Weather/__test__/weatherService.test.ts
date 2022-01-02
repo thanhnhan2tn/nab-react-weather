@@ -1,4 +1,4 @@
-import { getWeatherData, getLocationService } from "../weatherServices";
+import { getWeatherService, getLocationService } from "../weatherServices";
 
 jest.mock("axios", () => ({
   get: async (url: string) => {
@@ -8,7 +8,7 @@ jest.mock("axios", () => ({
 
 describe("weatherService", () => {
   it("getWeatherData", async () => {
-    const result = await getWeatherData("1252431");
+    const result = await getWeatherService("1252431");
     expect(result).toEqual({ key: "1252431" });
   });
   it("getLocationService", async () => {
