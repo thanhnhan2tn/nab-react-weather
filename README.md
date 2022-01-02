@@ -1,6 +1,6 @@
 # The Weather example ReactJS application
-
-![Github workflow](https://github.com/thanhnhan2tn/nab-react-weather/actions/workflows/test/badge.svg)
+[![codecov](https://codecov.io/gh/thanhnhan2tn/nab-react-weather/branch/master/graph/badge.svg)](https://codecov.io/gh/thanhnhan2tn/nab-react-weather/)
+![Github workflow](https://github.com/thanhnhan2tn/nab-react-weather/actions/workflows/test.yml/badge.svg)
 
 ## Description
 
@@ -9,7 +9,7 @@ The idea of this repo is to build a simple application complete with:
 * a React front end
 * a Node.js proxy server
 * unit tests
-* continuous integration (via CircleCI)
+* Simple continuous integration (via Github Workflow)
 * continuous deployment (TBU)
 
 ## Technologies
@@ -21,7 +21,7 @@ The idea of this repo is to build a simple application complete with:
 * Node.js ([Install NodeJS](https://nodejs.org/en/download/))
 * Express
 * Use of a third-party REST API ([Metaweather](https://metaweather.com/))
-* CircleCI CI/CD
+* Github Workflow
 
 
 ## Things already done
@@ -33,20 +33,20 @@ The idea of this repo is to build a simple application complete with:
 - [x] Add weather info view
 - [x] Add a favicon
 - [x] Add error handling
-- [x] [Add CircleCI CI/CD](#add-circleci-cicd)
-
+- [x] Add Github Workflow CI
 
 ## Should make improve
 
-* [i18n](https://react.i18next.com/) for multiple languages.
-* Add Autocomplete for search location and select exactly location.
-* Lazy load and Memoization.
+- [ ] Add Autocomplete for search location and select exactly location.
+- [ ] Lazy load and Memoization.
+- [ ] Add [i18n](https://react.i18next.com/) for multiple languages.
+- [ ] Custom webpack config for Production optimization.
 
 ## Notes
 
 ### Highlevel Architecture
 
-![weather info view](https://github.com/thanhnhan2tn/nab-react-weather/blob/master/public/images/diagram.png?raw=true)
+![weather info view](https://github.com/thanhnhan2tn/nab-react-weather/blob/master/public/images/diagram.jpg?raw=true)
 
 The high-level architecture will consist of 3 layers:
 * Frontend Application Layer: Provide user interface to end-user, include all application logic.
@@ -78,10 +78,6 @@ This command launches both our node server and `webpack-dev-server`.
 ### Add weather view UI
 
 ![weather info view](https://github.com/thanhnhan2tn/nab-react-weather/blob/master/public/images/screenshot.png?raw=true)
-
-
-### Add CircleCI CI/CD
-
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
